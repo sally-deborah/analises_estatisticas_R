@@ -1,5 +1,6 @@
 #Codigo adaptado por: Sally Deborah P. da Silva, Engª Florestal MsC &
 #Lucas Gelhen Rigon, Engº de Software
+#
 #14/02/2024
 
 
