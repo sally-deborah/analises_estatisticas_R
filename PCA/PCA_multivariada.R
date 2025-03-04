@@ -1,3 +1,11 @@
+#Analise de componentes principais
+#Com uso da rotação VariMax normalizada
+#Geração de autovalores e contribuição das variaveis
+#Definiçõ de variaveis suplementares e de análise
+############ tese de doutorado #Sally Deborah Pereira da Silva ###
+#PPGEF-UFSM - 04-03-25
+
+
 # Instalando e carregando os pacotes necessários
 if (!require("FactoMineR")) install.packages("FactoMineR")
 if (!require("factoextra")) install.packages("factoextra")
@@ -10,7 +18,7 @@ library(psych)
 library(writexl)
 
 # Importando a planilha CSV com os dados
-dados <- read.csv("C:\\Users\\sally\\OneDrive\\Área de Trabalho\\teste_nutri\\PCA_FATORIAL\\dados_PCA_pt.CSV", 
+dados <- read.csv("seu_path/dados_PCA.CSV", 
                   header = TRUE, sep = ";", dec = ".", stringsAsFactors = FALSE, check.names = FALSE)
 
 # Convertendo colunas para numérico
