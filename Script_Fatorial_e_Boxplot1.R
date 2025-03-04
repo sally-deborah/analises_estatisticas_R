@@ -2,7 +2,7 @@
 #Lucas Gelhen Rigon, Engº de Software
 #
 #14/02/2024
-
+#asdas
 
 # Passo 1: Carregar os pacotes que serao usados
 
