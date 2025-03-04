@@ -5,7 +5,6 @@
 ############ tese de doutorado #Sally Deborah Pereira da Silva ###
 #PPGEF-UFSM - 04-03-25
 
-
 # Instalando e carregando os pacotes necessários
 if (!require("FactoMineR")) install.packages("FactoMineR")
 if (!require("factoextra")) install.packages("factoextra")
@@ -59,7 +58,7 @@ write_xlsx(list(
   "Autovalores" = autovalores,
   "Contribuicoes_Variaveis" = contribuicoes,
   "Correlacoes" = as.data.frame(correlacoes)  # Inclui todas as variáveis
-), path = "C:\\Users\\sally\\OneDrive\\Área de Trabalho\\PCA_Results.xlsx")
+), path = "seu_path/PCA_Results.xlsx")
 
 # Plotando o gráfico de dispersão das variáveis de análise após a rotação varimax
 plot(acp_rot$loadings, type = "n")
@@ -81,8 +80,8 @@ p <- fviz_pca_var(acp, col.var = "contrib",
 p + geom_path(data = circle, aes(x, y), linetype = "dashed", color = "gray50") + 
   coord_fixed()
 
-
-ggsave("C:\\Users\\sally\\OneDrive\\Área de Trabalho\\teste_nutri\\PCA_FATORIAL\\PCA_Variaveis.tiff", 
+#salvando o grafico na pasta determinada
+ggsave("seu_path/PCA_Variaveis.tiff", 
        plot = p + 
          geom_path(data = circle, aes(x, y), linetype = "dashed", color = "gray50") + 
          coord_fixed(), 
