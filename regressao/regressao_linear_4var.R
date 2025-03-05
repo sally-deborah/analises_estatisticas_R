@@ -1,8 +1,7 @@
-#Regressão linear
-#Com 4 variaveis dependentes
+#regressao linear
+#Com quatro variaveis dependentes
 ############ tese de doutorado #Sally Deborah Pereira da Silva ###
 #PPGEF-UFSM - 05-03-25
-
 
 
 # Carregar pacotes necessários
