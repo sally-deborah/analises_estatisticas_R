@@ -1,9 +1,13 @@
-#Analise de componentes principais
-#Com uso da rotação VariMax normalizada
-#Geração de autovalores e contribuição das variaveis
-#Definiçõ de variaveis suplementares e de análise
-############ tese de doutorado #Sally Deborah Pereira da Silva ###
-#PPGEF-UFSM - 04-03-25
+# ================================================================
+# Script: analise_componentes_principais.R
+# Autor: Eng. Florestal MSc. Sally Deborah P. da Silva
+#
+# Descrição: Realiza Análise de Componentes Principais (ACP) com rotação
+#             Varimax normalizada, gera autovalores, contribuições e gráficos.
+# Linguagem: R
+# Dependências: FactoMineR, factoextra, psych, writexl, ggplot2
+# Data: 2025-10-27
+# ================================================================
 
 # Instalando e carregando os pacotes necessários
 if (!require("FactoMineR")) install.packages("FactoMineR")
