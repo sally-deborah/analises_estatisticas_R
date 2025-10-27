@@ -1,10 +1,13 @@
-#Analise Fatorial
-#Utiliza os componentes principais como método de extração dos fatores
-#rotação VariMax normalizada para obter a contribuição das variáveis originais em cada fator significante
-############ tese de doutorado #Sally Deborah Pereira da Silva ###
-#PPGEF-UFSM - 04-03-25
-
-
+# ================================================================
+# Script: analise_fatorial.R
+# Autor: Eng. Florestal MSc. Sally Deborah P. da Silva
+#
+# Descrição: Realiza análise fatorial utilizando componentes principais
+#             como método de extração, com rotação Varimax normalizada.
+# Linguagem: R
+# Dependências: psych, readr, factoextra, writexl, ggplot2, ggrepel, dplyr
+# Data: 2025-10-27
+# ================================================================
 
 # Instalar e carregar pacotes necessários
 install.packages(c("psych", "readr", "factoextra", "writexl", "ggplot2", "caret", "ggrepel", "dplyr"))
