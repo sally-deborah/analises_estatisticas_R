@@ -1,9 +1,13 @@
-#Analise de cluster
-#Geração de dendrograma para os casos
-#Calcula a matriz de distância euclidiana
-#Calcula a distância de ligação
-############ tese de doutorado #Sally Deborah Pereira da Silva ###
-#PPGEF-UFSM - 04-03-25
+# ================================================================
+# Script: analise_cluster.R
+# Autor: Eng. Florestal MSc. Sally Deborah P. da Silva
+#
+# Descrição: Realiza análise de agrupamento hierárquico (método Ward),
+#             gera dendrograma e exporta matrizes de distância e ligação.
+# Linguagem: R
+# Dependências: tidyverse, cluster, dendextend, openxlsx
+# Data: 2025-10-27
+# ================================================================
 
 
 # Carregar as bibliotecas necessárias
